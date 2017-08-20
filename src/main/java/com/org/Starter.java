@@ -16,6 +16,7 @@ public class Starter {
             ProductRepository productRepository = new ProductRepository();
             List<Product> productList = productRepository.getAll();
             productList.forEach(product -> System.out.println(product.getProductName()));
+            
         } catch (Exception e) {
             e.printStackTrace();
         } finally {
