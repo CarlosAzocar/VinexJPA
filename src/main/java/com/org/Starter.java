@@ -11,7 +11,7 @@ import java.util.List;
  */
 public class Starter {
     public static void main(String[] args) {
-        System.out.print("create appx");
+        System.out.print("Create new app");
 
         try {
             ProductRepository productRepository = new ProductRepository();
