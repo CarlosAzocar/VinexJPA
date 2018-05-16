@@ -11,7 +11,11 @@ import java.util.List;
  */
 public class Starter {
     public static void main(String[] args) {
+<<<<<<< HEAD
         System.out.print("Create pp");
+=======
+        System.out.print("create app");
+>>>>>>> 98efae1fcb4f96ad1239e726b3f213584d71e369
         
         try {
             ProductRepository productRepository = new ProductRepository();
