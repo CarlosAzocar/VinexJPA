@@ -5,10 +5,6 @@ import com.org.repositories.ProductRepository;
 
 import java.util.List;
 
-/**
- * Starter Class
- *
- */
 public class Starter {
     public static void main(String[] args) {
         System.out.print("Last");
